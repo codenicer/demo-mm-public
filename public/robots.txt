@@ -1,0 +1,27 @@
+User-agent: *
+
+Allow: /product/*
+Allow: /category/*
+Allow: /flash-deal/*
+Allow: /campaign/*
+Allow: /collection/*
+Allow: /featured-products/*
+Allow: /best-sellers/*
+Allow: /pages/*
+Allow: /blog/*
+Allow: /top-brands/*
+
+# Directories
+Disallow: /admin/
+Disallow: /profiles/
+# Files
+Disallow: /README.txt
+Disallow: /web.config
+Disallow: /search/
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: /user/login/
+Disallow: /user/logout/
+Disallow: /cart/*
+Disallow: /checkout/*
+
